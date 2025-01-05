@@ -30,7 +30,7 @@ it is similar to `flatMap()`, so why taking the trouble to modify the `Stream`
 interface just to add a new operation similar to an existent one ?
 
 Well, in order to understand that, the easiest way is to consider an example. 
-Have a look at this project. It is inspired from a real business case that I came
+Have a look at this [project](https://github.com/nicolasduminil/mapmulti-example.git). It is inspired from a real business case that I came
 across to during my daily activity, working for the FinTech industry.
 
 Have you heard about HF-PIFI ? For those who haven't, it states for *High Frequency
@@ -201,10 +201,12 @@ then we get the `List<HfPifi>` by simply using `mapMulti()` like this:
 
 In order to test the project that illustrates these examples, proceed as follows:
 
-    $ git clone ...
+    $ git clone https://github.com/nicolasduminil/mapmulti-example.git
     $ cd mapmulti-example
     $ mvn test
 
 A test report showing that all the unit tests have succeeded should be presented to you.
 
 Isn't that cool ?
+
+[![50 Shades of Java Executors](executors.jpg)](https://shorturl.at/ohTjM)
